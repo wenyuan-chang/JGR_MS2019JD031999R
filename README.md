@@ -17,3 +17,4 @@ In the download "tar" file, there are 36 files (pm25.yyyymm.txt) and each has th
 #### 3. Download link
 [the PM2.5 data 06:00UTC](https://wenyuan-chang.github.io/JGR_MS2019JD031999R/LCT14UTC06.tar)
 
+(https://wenyuan-chang.github.io/JGR_MS2019JD031999R/sup01.jpeg)
