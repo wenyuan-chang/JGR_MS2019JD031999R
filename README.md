@@ -15,4 +15,4 @@ In the download "tar" file, there are 36 files (pm25.yyyymm.txt) and each has th
 
 #### 3. Download link
 
-[Click to External link to LAPC server](http://www.lapc.ac.cn/t.php?t=1586264287)
+[Click to the data server](http://www.lapc.ac.cn/t.php?t=1586264287)
