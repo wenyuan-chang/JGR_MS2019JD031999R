@@ -2,4 +2,4 @@
 #### Manuscript submitted to Journal of Geophysical Research
 #### Authors: Wenyuan Chang, and Jianqiong Zhan
 
-
+LCT14UTC06.tar
