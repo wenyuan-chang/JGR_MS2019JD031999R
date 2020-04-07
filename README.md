@@ -9,10 +9,11 @@ The raw data was downloaded from the http://data.epmap.org. The data in this pag
 2. The instantaneous PM2.5 concentration of each city was calculated from the PM2.5 values that were measured at the reserving sites in the city.
 3. The city without continuous missing values longer than three days was kept.
 
-In the download file, there are 103 cities with instantaneous PM2.5 concentration (ug/m3) at 06:00UTC for October to March in 2013-2019. Each file has 103 rows and x columns, where x denotes the amount of days in that month. To attain the final PM2.5 data in the mansucript, the remaining missing values in the download files are need to be further substituted by the interpolation values between the preceding and following PM2.5 concentrations.
+In the download "tar" file, there are 36 files (pm25.yyyymm.txt) and each has the instantaneous PM2.5 concentration (ug/m3) at 06:00UTC in a month from October to March in 2013-2019. Each file has 103 rows indicating 103 cities and n columns, where n denotes the amount of days in that month. To attain the final PM2.5 data in the mansucript, the remaining missing values in the download files are need to be further substituted by the interpolation values between the preceding and following PM2.5 concentrations.
 
 #### 2. Missing values:
 -99.
 
 #### 3. Download link
 [the PM2.5 data 06:00UTC](https://wenyuan-chang.github.io/JGR_MS2019JD031999R/LCT14UTC06.tar)
+
