@@ -1,3 +1,5 @@
+THIS IS A DATA DEPOSITORY FOR MY PUBLICATION
+
 #### Title: Asymmetrical Linkages between Multi-frequency Atmospheric Waves and Variations in Winter PM2.5 Concentrations in Northern China during 2013–2019
 #### Manuscript submitted to Journal of Geophysical Research
 
@@ -10,9 +12,11 @@ The raw data was downloaded from the http://data.epmap.org. The raw data was pre
 
 In the download "tar" file, there are 36 files (pm25.yyyymm.txt) and each has the instantaneous PM2.5 concentration (ug/m3) at 06:00UTC in a month from October to March in 2013-2019. Each file has 103 rows indicating 103 cities and n columns, where n denotes the amount of days in that month. A file "zlonlat.txt" in the download "tar" file contains three columns which are longitude, latitude and identification number of the city. The lon/lat of a city is the average lon/lat of the reserving sites in the city. To attain the final PM2.5 data in the mansucript, the remaining missing values in the download files are need to be further substituted by the interpolation values between the preceding and following PM2.5 concentrations.
 
-#### 2. Missing values:
+#### 2. Missing value:
 -99.
 
 #### 3. Download link
 
 [Click to the data server](http://www.lapc.ac.cn/t.php?t=1586264287)
+
+Contact: changwy[@]mail.iap.ac.cn
