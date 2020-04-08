@@ -16,7 +16,7 @@ In the download "tar" file, there are 36 files (pm25.yyyymm.txt) and each has th
 -99.
 
 #### 3. Download link
-
-[Click to the data server](http://www.lapc.ac.cn/t.php?t=1586264287)
+1. [Click to download the file](https://github.com/wenyuan-chang/JGR_MS2019JD031999R/LCT14UTC06.tar)
+2. [Click to external data server](http://www.lapc.ac.cn/t.php?t=1586264287) (in case of the download failure from Github)
 
 Contact: changwy[@]mail.iap.ac.cn
