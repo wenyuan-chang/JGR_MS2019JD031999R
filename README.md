@@ -4,19 +4,21 @@ THIS IS A DATA DEPOSITORY FOR MY PUBLICATION
 #### Manuscript submitted to Journal of Geophysical Research
 
 #### 1. Data description:
-The page provides the instantaneous PM2.5 concentrations (ug/m3) at 06:00UTC for six winers in 2013-2019 that are in use for the manuscript submitted to JGR_MS2019JD031999R.
-The raw data was downloaded from the http://data.epmap.org. The raw data was preprocessed in the following steps to attain the data in this page: 
-1. Remove the sites that have missing values more than 10% of the whole records over the six winters.
-2. The instantaneous PM2.5 concentration of each city was averaged from the PM2.5 values at the reserving sites in the city.
-3. The city without continuous missing values longer than three days was kept.
+The page provides the instantaneous PM2.5 concentrations (ug/m3) at 06:00UTC for six winters (Oct-Mar) in 2013-2019 that are in use for the manuscript submitted to JGR_MS2019JD031999R. The raw data were downloaded from this website http://data.epmap.org and were preprocessed in the following steps to attain the data in this page:
 
-In the download "tar" file, there are 36 files (pm25.yyyymm.txt) and each has the instantaneous PM2.5 concentration (ug/m3) at 06:00UTC in a month from October to March in 2013-2019. Each file has 103 rows indicating 103 cities and n columns, where n denotes the amount of days in that month. A file "zlonlat.txt" in the download "tar" file contains three columns which are longitude, latitude and identification number of the city. The lon/lat of a city is the average lon/lat of the reserving sites in the city. To attain the final PM2.5 data in the mansucript, the remaining missing values in the download files are need to be further substituted by the interpolation values between the preceding and following PM2.5 concentrations.
+1.	Remove the sites that have missing values of more than 10% of the whole records over the six winters.
+
+2.	Average the instantaneous PM2.5 concentration at the reserving sites in each city.
+
+3.	Remove the city with the continuous missing values longer than three days.
+
+In the download link, the compressed file contains 36 files (pm25.yyyymm.txt), and each has the instantaneous PM2.5 concentration (ug/m3) at 06:00UTC in a month from October to March in 2013-2019. Each file has 103 rows for 103 cities and n columns indicating the number of days in that month. A file "zlonlat.txt" contains three columns, which are longitude, latitude, and the identification number of the city. The lon/lat of a city is the average lon/lat of the reserving sites in the city. There are still a few missing values for the city PM2.5. The final PM2.5 data in the manuscript has replaced these missing values with the interpolation values between the preceding and succeeding PM2.5 concentrations.
 
 #### 2. Missing value:
 -99.
 
 #### 3. Download link
 1. [Click to download the file](https://github.com/wenyuan-chang/JGR_MS2019JD031999R/raw/master/LCT14UTC06.tar)
-2. [Click to external data server](http://www.lapc.ac.cn/t.php?t=1586264287) (in case of the download failure at Github)
+2. [Click to the external data server](http://www.lapc.ac.cn/t.php?t=1586264287) (a similar data file used for backup)
 
 Contact: changwy[@]mail.iap.ac.cn
