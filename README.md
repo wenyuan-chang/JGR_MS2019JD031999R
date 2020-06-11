@@ -12,9 +12,7 @@ The page provides the instantaneous PM2.5 concentrations (ug/m3) at 103 cities i
 
 3.	Remove the city that has the continuous missing values more than three.
 
-In the download link, the compressed file contains 36 files (pm25.yyyymm.txt), and each has the instantaneous PM2.5 concentration (ug/m3) at 06:00UTC in a month from October to March in 2013-2019. Each file has 103 rows for 103 cities and n columns indicating the number of days in that month. A file "zlonlat.txt" contains three columns, which are longitude, latitude, and the identification number of the city. The lon/lat of a city is the average lon/lat of the reserving sites in the city. After the three steps above, there are still a few missing values in the city PM2.5 data. It is the user responsibility to fillup these missing values. I did this with the NCL function linmsg_n in a NCL script, and the final PM2.5 data in the paper has replaced these missing values with the interpolation values between the preceding and succeeding PM2.5 concentrations.
-
-The PM2.5 data are the routine measurements operated by China National Environmental Monitoring Center. One who uses this data need to acknowledge the origional data source.
+In the download link, the compressed file contains 36 files (pm25.yyyymm.txt), and each has the instantaneous PM2.5 concentration (ug/m3) at 06:00UTC in a month from October to March in 2013-2019. Each file has 103 rows for 103 cities and n columns indicating the number of days in that month. A file "zlonlat.txt" contains three columns, which are longitude, latitude, and the identification number of the city. The lon/lat of a city is the average lon/lat of the reserving sites in the city. After the three steps above, there are still a few missing values in the city PM2.5 data. I filled up these missing values with the interpolation values between the preceding and succeeding PM2.5 concentrations using the NCL function linmsg_n in a NCL script. One who uses this data need to handle these missing values by himself, and please acknowledge the original data source of China National Environmental Monitoring Center. 
 
 #### 2. Missing value:
 -99.
