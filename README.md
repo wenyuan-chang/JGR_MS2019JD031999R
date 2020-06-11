@@ -10,7 +10,7 @@ The page provides the instantaneous PM2.5 concentrations (ug/m3) at 103 cities i
 
 2.	Average the instantaneous PM2.5 concentration, latitude and longitude at the reserving sites in each city.
 
-3.	Remove the city that has the continuous missing values longer than three.
+3.	Remove the city that has the continuous missing values more than three.
 
 In the download link, the compressed file contains 36 files (pm25.yyyymm.txt), and each has the instantaneous PM2.5 concentration (ug/m3) at 06:00UTC in a month from October to March in 2013-2019. Each file has 103 rows for 103 cities and n columns indicating the number of days in that month. A file "zlonlat.txt" contains three columns, which are longitude, latitude, and the identification number of the city. The lon/lat of a city is the average lon/lat of the reserving sites in the city. After the three steps above, there are still a few missing values in the city PM2.5 data. The final PM2.5 data in this paper has replaced these missing values with the interpolation values between the preceding and succeeding PM2.5 concentrations.
 
